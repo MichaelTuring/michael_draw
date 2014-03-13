@@ -27,5 +27,9 @@ public class Statistics extends Activity{
         ArcView arcView=new ArcView(this);
         barChart_container.addView(arcView);
 
+        pieChart_container= (LinearLayout) findViewById(R.id.pieChart_container);
+        ArcProgressbar arcProgressbar=new ArcProgressbar(this);
+        pieChart_container.addView(arcProgressbar);
+
     }
 }

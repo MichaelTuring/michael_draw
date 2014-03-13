@@ -17,10 +17,6 @@ class ArcView extends View {
     public ArcView(Context context) {
         super(context);
         setBackgroundColor(Color.WHITE);
-
-        paint.setColor(Color.GREEN);
-        paint.setStrokeWidth(6);
-
     }
     @Override
     protected void onDraw(Canvas canvas) {
@@ -42,15 +38,16 @@ class ArcView extends View {
         paint.setColor(Color.YELLOW);
         canvas.drawArc(rectF1, 90, 20, useCenter, paint);
         paint.setColor(Color.RED);
-        paint.setStyle(Paint.Style.FILL);
-        canvas.drawArc(rectF1, 120, 30, useCenter, paint);
+        paint.setStyle(Paint.Style.STROKE);
+        paint.setStrokeWidth(20);
+        canvas.drawArc(rectF1, 120, 30, false, paint);
 
         Paint p = new Paint();
         p.setColor(Color.YELLOW);
         p.setAntiAlias(true);
         p.setStyle(Paint.Style.STROKE);
         p.setStrokeWidth(4);
-
+        paint.setAntiAlias(true);
         canvas.drawCircle(60, 60, 50, p);
         canvas.drawCircle(60, 60, 60, p);
 
