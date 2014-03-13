@@ -83,7 +83,6 @@ public class Main extends Activity {
                 canvas.drawLine(pts[i], pts[i + 1], pts[stopXIndex],
                         pts[stopYIndex], paint);
             }
-
         }
 
         @Override
