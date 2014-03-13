@@ -13,7 +13,7 @@ import android.view.View;
 class ArcView extends View {
     private Paint paint = new Paint();
 
-    private boolean useCenter = true;
+    private boolean useCenter = false;
     public ArcView(Context context) {
         super(context);
         setBackgroundColor(Color.WHITE);
@@ -31,25 +31,24 @@ class ArcView extends View {
         rectF1.top = 50;
         rectF1.right = 330;
         rectF1.bottom = 350;
-
+        paint.setStrokeWidth(20);
         paint.setColor(Color.GREEN);
-        paint.setStyle(Paint.Style.FILL);
+        paint.setStyle(Paint.Style.STROKE);
         canvas.drawArc(rectF1, 30, 60, useCenter, paint);
         paint.setColor(Color.YELLOW);
         canvas.drawArc(rectF1, 90, 20, useCenter, paint);
         paint.setColor(Color.RED);
         paint.setStyle(Paint.Style.STROKE);
-        paint.setStrokeWidth(20);
-        canvas.drawArc(rectF1, 120, 30, false, paint);
+        canvas.drawArc(rectF1, 150, 98, false, paint);
+        paint.setColor(Color.BLACK);
 
-        Paint p = new Paint();
-        p.setColor(Color.YELLOW);
-        p.setAntiAlias(true);
-        p.setStyle(Paint.Style.STROKE);
-        p.setStrokeWidth(4);
-        paint.setAntiAlias(true);
-        canvas.drawCircle(60, 60, 50, p);
-        canvas.drawCircle(60, 60, 60, p);
+        RectF rectF2 = new RectF();
+        rectF2.left = 20;
+        rectF2.top = 40;
+        rectF2.right = 340;
+        rectF2.bottom = 360;
+
+        canvas.drawArc(rectF2, 110, 40, false, paint);
 
 
     }

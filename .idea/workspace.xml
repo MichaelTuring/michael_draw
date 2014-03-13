@@ -15,10 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7715061c-3ae6-4fe7-9060-fe3242b9574b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mobile/android/ch15/draw/ArcProgressbar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mobile/android/ch15/draw/RoundProgressBar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mobile/android/ch15/draw/MichaelChartView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mobile/android/ch15/draw/ArcView.java" afterPath="$PROJECT_DIR$/src/mobile/android/ch15/draw/ArcView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mobile/android/ch15/draw/Statistics.java" afterPath="$PROJECT_DIR$/src/mobile/android/ch15/draw/Statistics.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ch15_draw.iws" />
@@ -143,10 +141,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArcView.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ArcView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mobile/android/ch15/draw/ArcView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="5" selection-start="1556" selection-end="1556" vertical-scroll-proportion="1.0761589" vertical-offset="592" max-vertical-offset="1403">
+            <state line="23" column="0" selection-start="536" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1380">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MichaelChartView.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mobile/android/ch15/draw/MichaelChartView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.4893617" vertical-offset="0" max-vertical-offset="1794">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,12 +186,14 @@
         <option value="$PROJECT_DIR$/src/mobile/android/ch15/draw/RoundProgressBar.java" />
         <option value="$PROJECT_DIR$/src/mobile/android/ch15/draw/Statistics.java" />
         <option value="$PROJECT_DIR$/src/mobile/android/ch15/draw/ArcView.java" />
+        <option value="$PROJECT_DIR$/src/mobile/android/ch15/draw/michaelArcView.java" />
+        <option value="$PROJECT_DIR$/src/mobile/android/ch15/draw/MichaelChartView.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="53" />
+    <option name="x" value="12" />
+    <option name="y" value="38" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -511,11 +522,15 @@
       <created>1394695489497</created>
       <updated>1394695489497</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1，add circle&#10;">
+      <created>1394698928465</created>
+      <updated>1394698928465</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="53" width="1936" height="1056" extended-state="0" />
+    <frame x="12" y="38" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -529,8 +544,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33508956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14014752" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -706,9 +721,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files (x86)/Android/android-studio1/sdk/platforms/android-19/android.jar!/android/graphics/RectF.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="1489" max-vertical-offset="2093">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Android/android-studio1/sdk/platforms/android-19/android.jar!/android/graphics/Canvas.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="43" selection-start="6009" selection-end="6009" vertical-scroll-proportion="0.0" vertical-offset="3230" max-vertical-offset="5198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Android/android-studio1/sdk/platforms/android-19/android.jar!/android/graphics/Paint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="252" column="30" selection-start="9088" selection-end="9088" vertical-scroll-proportion="0.42880794" vertical-offset="5514" max-vertical-offset="6118">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Android/android-studio1/sdk/platforms/android-19/android.jar!/android/graphics/Color.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="159" selection-end="159" vertical-scroll-proportion="0.19039735" vertical-offset="0" max-vertical-offset="1104">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mobile/android/ch15/draw/ArcView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="5" selection-start="1556" selection-end="1556" vertical-scroll-proportion="1.0761589" vertical-offset="592" max-vertical-offset="1403">
+        <state line="23" column="0" selection-start="536" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1380">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/android/ch15/draw/MichaelChartView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.4893617" vertical-offset="0" max-vertical-offset="1794">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
