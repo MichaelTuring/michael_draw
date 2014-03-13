@@ -4,7 +4,7 @@
       android:versionCode="1"
       android:versionName="1.0">
     <application android:icon="@drawable/icon" android:label="画图">
-        <activity android:name="mobile.android.ch15.draw.Main"
+        <activity android:name=".Statistics"
                   android:label="画图">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
