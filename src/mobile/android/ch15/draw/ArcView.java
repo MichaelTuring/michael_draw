@@ -32,30 +32,28 @@ class ArcView extends View {
 
         RectF rectF1 = new RectF();
         rectF1.left = 30;
-        rectF1.top = 190;
-        rectF1.right = 120;
-        rectF1.bottom = 280;
+        rectF1.top = 50;
+        rectF1.right = 330;
+        rectF1.bottom = 350;
 
+        paint.setColor(Color.GREEN);
+        paint.setStyle(Paint.Style.FILL);
         canvas.drawArc(rectF1, 30, 60, useCenter, paint);
         paint.setColor(Color.YELLOW);
         canvas.drawArc(rectF1, 90, 20, useCenter, paint);
+        paint.setColor(Color.RED);
+        paint.setStyle(Paint.Style.FILL);
+        canvas.drawArc(rectF1, 120, 30, useCenter, paint);
 
-//        RectF rectF2 = new RectF();
-//        rectF2.left = 140;
-//        rectF2.top = 190;
-//        rectF2.right = 280;
-//        rectF2.bottom = 290;
-//        paint.setStyle(Paint.Style.STROKE);
-//        canvas.drawArc(rectF2, 0, 360, useCenter, paint);
+        Paint p = new Paint();
+        p.setColor(Color.YELLOW);
+        p.setAntiAlias(true);
+        p.setStyle(Paint.Style.STROKE);
+        p.setStrokeWidth(4);
 
-//        RectF rectF3 = new RectF();
-//        rectF3.left = 160;
-//        rectF3.top = 190;
-//        rectF3.right = 260;
-//        rectF3.bottom = 290;
-//
-//        paint.setStyle(Paint.Style.FILL_AND_STROKE);
-//        canvas.drawArc(rectF3, 0, 360, useCenter, paint);
+        canvas.drawCircle(60, 60, 50, p);
+        canvas.drawCircle(60, 60, 60, p);
+
 
     }
 }

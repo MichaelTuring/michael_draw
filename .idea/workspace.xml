@@ -124,7 +124,7 @@
       <file leaf-file-name="ArcView.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mobile/android/ch15/draw/ArcView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="41" selection-start="642" selection-end="648" vertical-scroll-proportion="0.27649006" vertical-offset="454" max-vertical-offset="1518">
+            <state line="54" column="31" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.69536424" vertical-offset="822" max-vertical-offset="1472">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -463,7 +463,11 @@
       <created>1394693506863</created>
       <updated>1394693506863</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1，add arcview&#10;">
+      <created>1394694235924</created>
+      <updated>1394694235924</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -482,7 +486,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33508956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33508956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -514,7 +518,8 @@
     <MESSAGE value="1,refactor the code" />
     <MESSAGE value="1,add donutview" />
     <MESSAGE value="1，add arcview" />
-    <option name="LAST_COMMIT_MESSAGE" value="1，add arcview" />
+    <MESSAGE value="1，add arcview&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1，add arcview&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -639,7 +644,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mobile/android/ch15/draw/ArcView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="41" selection-start="642" selection-end="648" vertical-scroll-proportion="0.27649006" vertical-offset="454" max-vertical-offset="1518">
+        <state line="54" column="31" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.69536424" vertical-offset="822" max-vertical-offset="1472">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
