@@ -14,10 +14,8 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7715061c-3ae6-4fe7-9060-fe3242b9574b" name="Default" comment="Initial commit&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mobile/android/ch15/draw/ArcView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mobile/android/ch15/draw/Statistics.java" afterPath="$PROJECT_DIR$/src/mobile/android/ch15/draw/Statistics.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="7715061c-3ae6-4fe7-9060-fe3242b9574b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mobile/android/ch15/draw/ArcView.java" afterPath="$PROJECT_DIR$/src/mobile/android/ch15/draw/ArcView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ch15_draw.iws" />
@@ -126,7 +124,7 @@
       <file leaf-file-name="ArcView.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mobile/android/ch15/draw/ArcView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="25" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.3807947" vertical-offset="690" max-vertical-offset="1633">
+            <state line="27" column="41" selection-start="642" selection-end="648" vertical-scroll-proportion="0.27649006" vertical-offset="454" max-vertical-offset="1518">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -461,7 +459,11 @@
       <created>1394692645920</created>
       <updated>1394692645920</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1，add arcview">
+      <created>1394693506863</created>
+      <updated>1394693506863</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -511,7 +513,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="1,refactor the code" />
     <MESSAGE value="1,add donutview" />
-    <option name="LAST_COMMIT_MESSAGE" value="1,add donutview" />
+    <MESSAGE value="1，add arcview" />
+    <option name="LAST_COMMIT_MESSAGE" value="1，add arcview" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -636,7 +639,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mobile/android/ch15/draw/ArcView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="25" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.3807947" vertical-offset="690" max-vertical-offset="1633">
+        <state line="27" column="41" selection-start="642" selection-end="648" vertical-scroll-proportion="0.27649006" vertical-offset="454" max-vertical-offset="1518">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
